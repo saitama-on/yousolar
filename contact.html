@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - uSolar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1170px;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            background: #b6ffb6;
+            color: black;
+            padding-top: 30px;
+            min-height: 70px;
+        }
+        header a {
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 20px;
+        }
+        .content h2 {
+            margin-top: 0;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        form button[type="submit"] {
+            background: #b6ffb6;
+            color: black;
+            padding: 10px 20px;
+            border: 0;
+            cursor: pointer;
+        }
+        footer {
+            background:#b6ffb6;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" style="width: 30rem;">
+        </div>
+    </header>
+
+    <div class="container content">
+        <h2>Contact Us</h2>
+        <p>Have questions about our solar energy solutions or need a consultation? Fill out the form below, and our team will get back to you as soon as possible.</p>
+        <form action="your-backend-endpoint" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 uSolar. Empowering Sustainable Futures.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,37 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.line {
+    background-color: green;
+    height: 0.3rem;
+    width: 23rem;
+    position: relative;
+    bottom: 1.6rem;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 27rem;
+    width: 70rem;
+}
+.box {
+    background-color: #b6ffb6;
+    height: 20rem;
+    width: 13rem;
+    border-radius: 2rem;
+    box-shadow: 5px 0px 10px black;
+    transition: 0.1s;
+}
+.box:hover {
+    box-shadow: 8px 0px 12px black;
+}
+.img {
+    height: 11rem;
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+    border-radius: 2rem;
+}

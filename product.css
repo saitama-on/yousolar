@@ -1,0 +1,105 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+.img1 {
+    height: 9.3rem;
+    position: relative;
+    left: 1rem;
+}
+.box {
+    border: 3px solid rgb(110, 201, 110);
+    border-radius: 1.5rem;
+    width: 12rem;
+    box-shadow: 1px 1px 10px black;
+    transition: 0.3s;
+}
+.box:hover {
+    box-shadow: 5px 3px 10px black;
+}
+.container {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    position: relative;
+    top: 3rem;
+}
+h1 {
+    position: relative;
+    left: 35rem;
+    display: inline;
+}
+.line {
+    border: 3px solid green;
+    position: relative;
+    bottom: 0.5rem;
+    width: 12rem;
+    left: 35.7rem;
+}
+h3 {
+    display: inline;
+}
+.h1 {
+    position: relative;
+    top: 4rem;
+    left: 11.4rem;
+}
+.h2 {
+    position: relative;
+    top: 4rem;
+    left: 22.4rem;
+}
+.h3 {
+    position: relative;
+    top: 4rem;
+    left: 33.4rem;
+}
+.h4 {
+    position: relative;
+    top: 4rem;
+    left: 44rem;
+}
+.img2 {
+    width: 9rem;
+    height: 9rem;
+}
+h2 {
+    position: relative;
+    top: 7rem;
+    left: 5rem;
+    font-size: 2rem;
+    display: inline;
+}
+h3 {
+    position: relative;
+    top: 10rem;
+    right: 10rem;
+}
+.spc {
+    padding-right: 2rem;
+}
+button {
+    position: relative;
+    top: 9.8rem;
+    right: 10rem;
+    width: 7rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    border: 0;
+    transition: 0.3s;
+}
+button:hover {
+    transform: scale(1.05);
+}
+.cont {
+    display: flex;
+}
+.pic {
+    position: relative;
+    top: 6.5rem;
+    left: 7rem;
+}
+img {
+    height: 10rem;
+}
